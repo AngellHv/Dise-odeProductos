@@ -13,9 +13,6 @@ Sistema web para organizar reparaciones de equipos tecnológicos. El técnico re
 - Validaciones y mensajes de error en español.
 - Almacenamiento en PostgreSQL de Supabase mediante una API en Node.js y Express.
 
-## Pendiente
+## Funcionalidad pendiente
 
-- Agregar las evidencias de funcionamiento a la entrega.
-- Actualizar Trello con el estado final del proyecto.
-- Preparar pruebas automatizadas de integración con Supabase; las pruebas actuales cubren las validaciones.
-- La interfaz no permite restaurar reparaciones archivadas.
+- Restaurar una reparación archivada. Actualmente se conserva en la base de datos, pero no hay una opción para devolverla al listado activo.
